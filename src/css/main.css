@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-22 10:31:32
+ * @version $Id$
+ */
+.pro-list{padding:0 0.24rem;}
+  .pro-list li{padding:0.3rem 0;overflow: hidden;border-bottom:1px solid rgb(231,234,241);}
+  .pro-list .left{width:40%;float:left;height:2.12rem;}
+  .pro-list .left img{height:2.12rem;}
+  .pro-list .right{width:60%;float:right;text-align: left;padding-left:0.24rem;}
+  .pro-list .data-hot-content{margin-top:0.15rem;color:rgb(102,102,102);font-size:0.26rem;line-height: 0.41rem}
+  .pro-list h2{font-weight: bold;font-size: 0.3rem;margin-top:0.1rem;}
+  /*免费 收藏 评论-公共样式*/
+  .dataHot-bottom{overflow:hidden;margin-top:0.15rem;font-size:0.3rem;}
+  .free{color:rgb(44,193,123)}
+  .unfree{color:rgb(255,88,0)}
+  .dataHot-bottom span,label,i,.mu-checkbox-label{vertical-align:bottom;}
+  .bottom-right{float:right;}
+  .bottom-right span{color:rgb(102,102,102);}
+
+  .collect{background:url('../../static/home/star.png') no-repeat;background-size:32%;margin-right:0.25rem;}
+  .comment{background:url('../../static/home/comment.png') no-repeat;background-size:40%;}
+  .collect,.comment{padding-left:0.45rem;}
+	/* end 免费 收藏 评论-公共样式*/
+
+  /*最新*/
+  .new_list{margin-top:0.3rem;padding:0.3rem 0.24rem;background:rgb(240,242,245);min-height:3rem;}
+  .new_list .mu-card-media{height:2.5rem;overflow:hidden;position: relative;}
+  .new_list .mu-card-title-container .mu-card-sub-title{text-align:left;font-size:;}
+  .new_list .card_bottom{padding:0.34rem 0.24rem 0.26rem;}
+  .new_list h2.title{font-size:0.3rem;font-weight:bold;text-align: left;}
+  .new_list .free{float:left;}
+  .new_list .mu-card{overflow: hidden;margin-bottom:0.3rem;box-shadow:none;border-radius: 10px;-webkit-border-radius: 10px;-o-border-radius: 10px;-ms-border-radius: 10px;-moz-border-radius: 10px;}
+  .new_list .new_content{position:absolute;top:1.89rem;color:#fff;font-size:0.3rem;width:85%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
+  .new_list .modal{background:rgba(0,0,0,0.3);height:100%;position: absolute;top:0;width:100%;}
+
+  /*推荐*/
+  .sug-content .banner{padding-bottom:0.2rem;background:rgb(240,242,245);}
+  .sug-content .data-hot-content{width:90%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis}
+  .sug-content .left,.sug-content .left img{height:1.71rem;}
+  
